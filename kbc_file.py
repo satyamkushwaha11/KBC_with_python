@@ -1,5 +1,12 @@
-import random,time, pyttsx3
-from pyttsx3 import engine
+import random,time
+import pyttsx3
+
+# from pyttsx3 import engine
+
+
+'''use this while you working in ubantu----------
+      sudo apt install espeak
+'''
 engine = pyttsx3.init()
 QUE=["Who is the prime minister of india ?","What is the age limit for NDA exam ?","what is the tenure of president ?","who is the father of computer ?","how many states are in india ?","which is the largest state in india by area ?","Which state has biggest econmy ?","Which state has biggest sea border ?","Which state founded on the bassic of language firstly ?"," Which is smallest state by area ?","How many article in our constitution ?","Which is last point of india in south ?","How many members in indian parlement ?","What is the rank of india in defence ?"]
 op1=["1) Narendra Modi","1) 20 years","1) 6 years","1) Morgun Moly","1) 27","1) Madhyapradesh","1) Maharastra","1) Tamilnadu","1) kerala","1) sikkim","1) 300","1) tamilnadu","1) 300","1) 1"]
